@@ -18,3 +18,8 @@ There are three was to create a Swarm cluster in Microsoft Azure:
 2. Use Docker for Azure CE following the documentation on [Docker website](https://docs.docker.com/docker-for-azure/)
 3. Using Azure Container Service Engine, following [this documentation](https://github.com/Azure/acs-demos/blob/master/training/swarm/deploy-acs-engine.md). 
 
+## Create an Azure Container Registry
+
+If you need a private Docker registry up and running very quickly, a good solution could be to use the Azure Container Registry service which provide an implementation of the Docker open source registry, as a service, and fully compatible with the Docker CLI.
+
+To create one, follow [this documentation](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal).
