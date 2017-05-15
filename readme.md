@@ -14,7 +14,7 @@ Follow [this documentation](dockermachine-azure.md) to get started.
 
 There are three was to create a Swarm cluster in Microsoft Azure:
 
-1. Create multiple Docker-enabled virtual machine using Docker Machine (cf. documentation above)
+1. Create multiple Docker-enabled virtual machine using Docker Machine (cf. documentation above), then follow [this documentation](https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm/) to create the Swarm cluster.
 2. Use Docker for Azure CE following the documentation on [Docker website](https://docs.docker.com/docker-for-azure/)
 3. Using Azure Container Service Engine, following [this documentation](https://github.com/Azure/acs-demos/blob/master/training/swarm/deploy-acs-engine.md). 
 
